@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>My page title</title>
-    <link rel="stylesheet/less" type="text/css" href="./styles/style.less" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.8.1/less.min.js" ></script>
-
-
-
+    <?php include './includes/header.php'?>
 </head>
 
 <body>
+    <a href = "lists.php">
+        <div class="container-fluid">
+            <div class="outer">
+                <div class="middle">
+                    <div class="inner">
+                        <h1>Shoppi</h1>
+                        <p>Your personal shopper</p>
+                        <i class="fas fa-shopping-cart fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
 
-
-
-
+    <?php include './includes/footer.php'?>
 </body>
 </html>
 
