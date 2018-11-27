@@ -40,24 +40,62 @@ body{
           }
       }
     }
-    a{
-      :nth-child(1){}
-      .list{
-        border-bottom:1px solid black;
-        border-top:1px solid black;
-        background-color:white;
-      }
+
+
+    .list{
+      border-bottom:1px solid black;
+      border-top:1px solid black;
+      background-color:white;
     }
+
 
     .row {
       padding-right: 0;
       padding-left: 0;
-
+        .flex{
+          display:flex;
+          justify-content: space-between;
+          margin:30px;
+        }
         .col-sm-12 {
-          h3 {
-            margin-top: 10px;
-          }
-
+            .color-box:nth-child(1){
+              background-color:orange;
+            }
+            .color-box:nth-child(2){
+              background-color:green;
+            }
+            .color-box:nth-child(3){
+              background-color:purple;
+            }
+            .color-box:nth-child(4){
+              background-color:deepskyblue;
+            }
+            .new-color:nth-child(1){
+              background-color:turquoise;
+            }
+            .new-color:nth-child(2){
+              background-color:greenyellow;
+            }
+            .new-color:nth-child(3){
+              background-color:red;
+            }
+            .new-color:nth-child(4){
+              background-color:blueviolet;
+            }
+            .color{
+              color:orange;
+            }
+            .color-box:active {
+             border:6px solid black;
+            }
+            .color-box{
+              width:20px;
+              height:20px;
+              border:0.5px solid grey;
+            }
+            h3 {
+              margin-top: 10px;
+            }
         }
         .add {
           color: lightskyblue;
@@ -89,12 +127,12 @@ body{
           text-align:center;
 
             h1{
-              font-size: 150px;
+              font-size: 100px;
 
             }
         }
       }
   }
-  //--------------index----------------//
 }
+//--------------index----------------//
 

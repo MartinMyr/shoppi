@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: martin
- * Date: 2018-11-23
- * Time: 19:42
- */
+
+
+        <script src="./script/script.js"></script>
+    </body>
+</html>
