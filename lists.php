@@ -8,7 +8,7 @@
     <div class="bg-grey">
 
         <?php include './includes/menu.php';
-            $users = new ViewLists();
+            $lists = new ViewLists();
         ?>
 
         <div class="container-fluid">
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <?php
-                $users->showAllLists();
+                $lists->showAllLists();
             ?>
 
             <div class="row">
