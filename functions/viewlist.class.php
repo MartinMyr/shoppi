@@ -7,7 +7,7 @@ class ViewList extends SingleList{
         ?>
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 style="color:<?=$data[0]['color']?>;"class="text-center"><?=$data[0]['name']?></h3>
+                    <h3 style="color:<?=$data[0]['color']?>;" class="text-center"><?=$data[0]['name']?></h3>
                 </div>
             </div>
         <?php

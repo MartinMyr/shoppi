@@ -9,7 +9,7 @@ class ViewLists extends Lists {
                 <div class="row no-flex list">
                     <div class="col-sm-6">
                         <div class="text">
-                            <p class="list-name"><?= $row['name'];?></p>
+                            <p style="color:<?=$row['color']?>" class="list-name"><?= $row['name'];?></p>
                         </div>
                     </div>
                     <div class="col-sm-6 align-items-center">
