@@ -4,7 +4,7 @@ $( document ).ready(function() {
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if(keycode == '13'){
             let name = $(this).val();
-            let newName = $(this)
+            let newName = $(this);
              $.ajax({
                  type: "post",
                  data: {'add-item-name':name},
@@ -14,8 +14,6 @@ $( document ).ready(function() {
                  error: function(jqXHR, textStatus, errorThrown) {
                      console.log(textStatus, errorThrown);
                  }
-
-
              });
         }
     });
@@ -34,14 +32,8 @@ $( document ).ready(function() {
             error: function(jqXHR, textStatus, errorThrown) {
                 console.log(textStatus, errorThrown);
             }
-
-
         });
-
-
     });
-
-
 
 
 });

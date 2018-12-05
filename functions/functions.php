@@ -10,7 +10,9 @@
         if(!$_GET['id']){
             $_GET['id'] = $_POST['id'];
         }
-
         $insert = new Add();
         $insert->insertItem();
+    }
+    if(isset($_POST['redirect'])){
+        var_dump("asd");
     }

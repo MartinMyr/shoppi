@@ -12,8 +12,16 @@ $( document ).ready(function() {
     $( ".list-link" ).click(function() {
         let listId= $(this).data("id");
         $( ".list-link" ).attr("href","list.php?id="+listId+"")
-
     });
+    $(".add-link-back").click(function(){
+        let listId= $(this).data("id");
+        $( ".add-link-back" ).attr("href","list.php?id="+listId+"")
+    });
+    $(".list-link-back").click(function(){
+        let listId= $(this).data("id");
+        $( ".list-link-back" ).attr("href","lists.php?id="+listId+"")
+    });
+
 
     $.fn.enterKey = function (fnc) {
         return this.each(function () {

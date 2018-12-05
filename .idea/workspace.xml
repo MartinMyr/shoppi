@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5de06dfc-a904-4bd6-a187-fdacbaf6b6b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/add.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/getcommon.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/viewcommon.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/addLists.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/addItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addList.php" beforeDir="false" afterPath="$PROJECT_DIR$/addList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/post.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/viewlist.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/viewlist.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/viewlists.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/viewlists.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/includes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/ajax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +21,14 @@
     <session id="-1723328989">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,8 +36,8 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="7" />
-          <entry key="less" value="4" />
-          <entry key="php" value="80" />
+          <entry key="less" value="5" />
+          <entry key="php" value="85" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
@@ -53,8 +45,8 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JavaScript" value="7" />
-          <entry key="Less" value="4" />
-          <entry key="PHP" value="80" />
+          <entry key="Less" value="5" />
+          <entry key="PHP" value="85" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="1" />
         </counts>
@@ -68,17 +60,17 @@
         <counts>
           <entry key="dummy" value="82" />
           <entry key="gitignore" value="19" />
-          <entry key="js" value="1152" />
-          <entry key="less" value="2217" />
-          <entry key="php" value="5299" />
+          <entry key="js" value="1304" />
+          <entry key="less" value="2250" />
+          <entry key="php" value="5404" />
           <entry key="scss" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1152" />
-          <entry key="Less" value="2217" />
-          <entry key="PHP" value="5299" />
+          <entry key="JavaScript" value="1304" />
+          <entry key="Less" value="2250" />
+          <entry key="PHP" value="5404" />
           <entry key="PLAIN_TEXT" value="101" />
           <entry key="SCSS" value="94" />
         </counts>
@@ -90,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            <state relative-caret-position="1104">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -99,8 +91,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="243">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -108,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="345">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -117,26 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/db.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/includes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="451">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -144,35 +136,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/add.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="612">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addItem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="227">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/viewlists.class.php">
+        <entry file="file://$PROJECT_DIR$/functions/viewlist.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            <state relative-caret-position="276">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#214#251#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/viewcommon.class.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="203">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -191,6 +186,7 @@
     <findStrings>
       <find>INSERT INTO lists SET name ='hello'</find>
       <find>text</find>
+      <find>i</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -215,7 +211,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/functions/db.php" />
         <option value="$PROJECT_DIR$/includes/functions.php" />
-        <option value="$PROJECT_DIR$/addList.php" />
         <option value="$PROJECT_DIR$/functions/addLists.php" />
         <option value="$PROJECT_DIR$/functions/viewlists.php" />
         <option value="$PROJECT_DIR$/includes/menu.php" />
@@ -232,16 +227,17 @@
         <option value="$PROJECT_DIR$/functions/prewadded.class.php" />
         <option value="$PROJECT_DIR$/functions/getcommon.class.php" />
         <option value="$PROJECT_DIR$/functions/add.class.php" />
-        <option value="$PROJECT_DIR$/functions/viewlist.class.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/includes/includes.php" />
         <option value="$PROJECT_DIR$/functions/ajaxadd.php" />
         <option value="$PROJECT_DIR$/functions/viewcommon.class.php" />
-        <option value="$PROJECT_DIR$/functions/functions.php" />
-        <option value="$PROJECT_DIR$/script/script.js" />
-        <option value="$PROJECT_DIR$/script/ajax.js" />
         <option value="$PROJECT_DIR$/styles/style.less" />
+        <option value="$PROJECT_DIR$/functions/functions.php" />
+        <option value="$PROJECT_DIR$/script/ajax.js" />
         <option value="$PROJECT_DIR$/addItem.php" />
+        <option value="$PROJECT_DIR$/script/script.js" />
+        <option value="$PROJECT_DIR$/functions/viewlist.class.php" />
+        <option value="$PROJECT_DIR$/addList.php" />
       </list>
     </option>
   </component>
@@ -258,9 +254,10 @@
     </servers>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="162" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1011" />
+    <option name="width" value="1278" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -351,24 +348,26 @@
       <workItem from="1543350235332" duration="2985000" />
       <workItem from="1543395664022" duration="782000" />
       <workItem from="1543397428995" duration="17862000" />
-      <workItem from="1543427908021" duration="7939000" />
+      <workItem from="1543427908021" duration="8417000" />
+      <workItem from="1543474950075" duration="685000" />
+      <workItem from="1544037186600" duration="6093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77928000" />
+    <option name="totallyTimeSpent" value="85184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1011" extended-state="6" />
+    <frame x="162" y="23" width="1278" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938511" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39756367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39756367" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -459,31 +458,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php" />
-    <entry file="file://$PROJECT_DIR$/lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/addItems.class.php" />
-    <entry file="file://$PROJECT_DIR$/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/viewlist.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#214#251#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/post.php" />
     <entry file="file://$PROJECT_DIR$/functions/lists.class.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,17 +488,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addList.php">
+    <entry file="file://$PROJECT_DIR$/functions/ajaxadd.php" />
+    <entry file="file://$PROJECT_DIR$/functions/db.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/ajaxadd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -534,66 +503,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/db.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/add.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/viewcommon.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="230">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/viewlists.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="161">
+          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addItem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="227">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/add.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/viewlist.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#214#251#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>

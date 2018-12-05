@@ -11,7 +11,9 @@
         <div class="row no-flex">
             <div class="col-sm-12 align-items-center">
                 <h3 class="text-center">Lägg till i listan</h3>
-
+                <a href="#" class="add-link-back" data-id="<?=$_GET['id']?>">
+                    <i class="fas fa-chevron-left text-muted"></i>
+                </a>
             </div>
         </div>
     </div>
