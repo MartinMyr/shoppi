@@ -14,17 +14,20 @@ class ViewList extends SingleList{
                 </div>
             </div>
         <?php
+
         foreach($data as $row){?>
-            <a href="#">
-                <div class="row no-flex list" data-id="<?=$row['id']?>">
-                    <div class="col-sm-6">
-                        <div class="text">
-                            <p class="list-name"><?= $row['item'];?></p>
-                        </div>
+            <div class="row no-flex list" data-id="<?=$row['id']?>">
+                <div class="col-sm-6 align-items-center">
+                    <input data-name="<?=$row['item']?>" data-id="<?=$_GET['id']?>" type="checkbox" <?php echo ($row['selected']==1 ? checked : '') ?> class="item-center">
+                </div>
+                <div class="col-sm-6">
+                    <div class="text">
+                        <p class="name <?php echo ($row['selected']==1 ? 'selected' : '') ?> "><?= $row['item'];?></p>
                     </div>
                 </div>
-            </a>
-            <?php
+            </div>
+        <?php
+
         }
     }
 }

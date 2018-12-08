@@ -3,8 +3,8 @@
 class SingleList extends Dbh{
     public $id;
     protected function getList(){
-        $this->id = $_GET['id'];;
-        $sql = "SELECT * FROM list AS l JOIN lists AS li ON l.lists_id=li.id WHERE l.lists_id =  $this->id";
+        $this->id = $_GET['id'];
+        $sql = "SELECT * FROM lists AS li JOIN list AS l ON li.id=l.lists_id WHERE li.id =  $this->id ORDER BY l.selected";
         $result = $this->connect()->query($sql);
         $numRows = $result->num_rows;
         if($numRows>0){
