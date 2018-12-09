@@ -14,4 +14,10 @@ class SingleList extends Dbh{
             return $data;
         }
     }
+    public function updateList(){
+        $this->id = $_POST['id'];
+        $this->selected =$_POST['selected'];
+        $sql = "UPDATE list SET selected = $this->selected WHERE id = $this->id";
+        $this->connect()->query($sql);
+    }
 }

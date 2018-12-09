@@ -16,9 +16,9 @@ class ViewList extends SingleList{
         <?php
 
         foreach($data as $row){?>
-            <div class="row no-flex list" data-id="<?=$row['id']?>">
+            <div class="row no-flex list">
                 <div class="col-sm-6 align-items-center">
-                    <input data-name="<?=$row['item']?>" data-id="<?=$_GET['id']?>" type="checkbox" <?php echo ($row['selected']==1 ? checked : '') ?> class="item-center">
+                    <input data-id="<?=$row['id']?>" type="checkbox" <?php echo ($row['selected']==1 ? checked : '') ?> class="list-item item-center">
                 </div>
                 <div class="col-sm-6">
                     <div class="text">

@@ -13,6 +13,8 @@
         $insert = new Add();
         $insert->insertItem();
     }
-    if(isset($_POST['redirect'])){
-        var_dump("asd");
+    if(isset($_POST['selected'])){
+        $update = new SingleList();
+        $update->updateList();
+
     }

@@ -35,5 +35,26 @@ $( document ).ready(function() {
         });
     });
 
+    $('.list-item').click(function(){
+        let id = $(this).data('id');
+        let selected;
+        if($(this).is(":checked")){
+            selected=1;
+        }else{
+            selected=0;
+        }
+
+
+        $.ajax({
+            type: "post",
+            data: {'id': id, 'selected':selected},
+            success: function (response) {
+                location.reload();
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+    })
 
 });
